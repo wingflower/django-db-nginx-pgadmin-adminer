@@ -28,7 +28,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #     secrets = json.loads(f.read())
 # 
 # def get_secret(setting):
-#     """비밀 변수를 가져오거나 명시적 예외를 반환한다."""
 #     try:
 #         return secrets[setting]
 #     except KeyError:
